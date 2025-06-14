@@ -5,13 +5,18 @@ export const HeroSection = () => {
     <section id="hero" className="relative min-h-screen flex flex-col items-center justify-center px-4">
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
+          {/* Avatar with gradient border */}
+          <div className="w-48 h-48 mx-auto rounded-full p-1 bg-gradient-to-tr from-purple-500 via-pink-500 to-yellow-500">
+            <img src="/Bestman.jpg" alt="Maheel Lakshan" className="w-full h-full object-cover rounded-full border-4 border-background" />
+          </div>
+
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1"> Maheel</span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"> Lakshan</span>
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">I create stellar web experiences with modern technologies. Specializing in front-end development, I build interfaces that are both beautiful and functional.</p>
+          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">Full-stack developer skilled in JavaScript and TypeScript-based technologies, with experience in the MERN stack and React Native for mobile apps.</p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">
