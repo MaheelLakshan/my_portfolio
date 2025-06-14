@@ -70,11 +70,11 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="www.linkedin.com/in/maheel-lakshan-75880627b" target="_blank" className="text-blue-800 font-bold">
+                <a href="www.linkedin.com/in/maheel-lakshan-75880627b" target="_blank" className="bg-blue-500 text-muted-foreground font-bold">
                   {/* <Linkedin /> */}
                   Linkedin
                 </a>
-                <a href="https://github.com/MaheelLakshan" target="_blank" className="text-black font-bold">
+                <a href="https://github.com/MaheelLakshan" target="_blank" className="text-muted-foreground font-bold">
                   {/* <Twitter /> */}
                   GitHub
                 </a>
