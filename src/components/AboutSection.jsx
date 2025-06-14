@@ -29,7 +29,7 @@ export const AboutSection = () => {
                 Download React Native CV
               </a>
 
-              <a href="/maheelLakshan_common_cv.pdf" download className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+              <a href="/maheelLakshan_common_cv.pdf" download="Maheel_Lakshan.pdf" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                 Common CV
               </a>
             </div>
